@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5 - Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+        h1{
+            color: blue;
+            font-size: 2.5rem;
+        }
+
+        form-field{
+            display : block;
+        }
+
+        #loginForm{
+            background-color: red;
+        }
+        #loginInfo{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<!-- Joe Haynes - Lab 5 -->
+
+<section id="loginInfo">
+    <h1>Super Ai Dash</h1>
+    <p>Ai powered finance from Apes, alt-coins, and fiat currency,
+        we promise you won't <em><strong>lose</strong></em> it all </p>
+</section>
+
+<section id="loginForm">
+    <form action="#" method="post">
+
+        <form-field>
+            <label for="emailField">Email Address</label>
+            <input type="email" id="emailField" name="email" placeholder="you@example.com" autofocus required>
+        </form-field>
+
+        <form-field>
+            <label for="passwordField">Password</label>
+            <input type="password" id="passwordField" name="password" placeholder="password" autofocus required>
+        </form-field>
+
+        <form-field>
+            <button type="submit">Sign In</button>
+        </form-field>
+
+        <password-recovery>
+            <a href="#">Forgot password?</a>
+        </password-recovery>
+    </form>
+</section>
+
+
+
+</body>
+</html>
