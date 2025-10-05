@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #4a90e2;
+    --text-color: #333;
+    /* Add more variables */
+    --radius :0.8rem
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: lightgray;
+    color: var(--text-color);
+    padding: 1rem;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 100dvh;
+}
+
+
+#loginInfo, #loginForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+}
+
+#loginInfo{
+    color : white;
+    flex-direction: column;
+    background: linear-gradient(to bottom, var(--primary-color), blue);
+    border-top-left-radius: var(--radius) ;
+    border-bottom-left-radius: var(--radius) ;
+    text-align: center;
+}
+#loginInfo h1{
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0 0 1rem;
+}
+
+#loginInfo p{
+    max-width: 34ch;
+    margin: 0;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#loginForm{
+    background: white;
+    border-top-right-radius: var(--radius) ;
+    border-bottom-right-radius: var(--radius) ;
+    box-shadow:  0 0.75rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 32rem;
+}
+
+form-field{
+    display: block;
+    margin-bottom: .5rem;
+}
+
+form-field label{
+    display: block;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+form-field input{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+}
+
+form-field button{
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+}
+
+password-recovery{
+    text-align: right;
+}
