@@ -26,6 +26,7 @@ By the end of this lab, we will have:
 - Achieving perfect vertical centering required combining Grid and Flexbox alignment properties.
 - Some scrollbar overflow occurred due to margin with 100vh; switching to padding resolved the issue.
 - Responsiveness required fine-tuning column ratios (41fr 6fr) and padding adjustments for smaller viewports
+- Struggled to get the anchor and button on the same row, so I used a custom element to get the button and anchor to align 
 
 ## How to Use
 1. Open the project folder.
