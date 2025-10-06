@@ -25,7 +25,7 @@ By the end of this lab, we will have:
 - Custom elements (e.g., <form-field>) required explicit display: block; rules for labels and inputs to stack correctly.
 - Achieving perfect vertical centering required combining Grid and Flexbox alignment properties.
 - Some scrollbar overflow occurred due to margin with 100vh; switching to padding resolved the issue.
-- Responsiveness required fine-tuning column ratios (1fr 2fr) and padding adjustments for smaller viewports
+- Responsiveness required fine-tuning column ratios (41fr 6fr) and padding adjustments for smaller viewports
 
 ## How to Use
 1. Open the project folder.
@@ -34,14 +34,21 @@ By the end of this lab, we will have:
 4. Resize the window to observe how the layout adapts for mobile and desktop.
 5. Test hover and focus states on inputs and the Sign In button.
 
+## Github Pages site
+https://joekaihaynes.github.io/lab5-css-foundations/
+
 ## Repository Structure
 ```
 lab5-web-foundations-css/
 ├── docs/
-│   ├── index.html       # Main HTML file (login page)
-│   └── styles.css       # CSS file (layout, colors, spacing)
-├── LICENSE.md           # Project license
-└── README.md            # Project documentation
+│   ├── index.html         # Main HTML file (login page)
+│   ├── styles.css         # CSS file (layout, colors, spacing)
+│   ├── chrome.jpg         # Screenshot from Google Chrome
+│   ├── firefox.jpg        # Screenshot from Mozilla Firefox
+│   ├── microsoftedge.jpg  # Screenshot from Microsoft Edge
+│   └── validation.jpg     # HTML/CSS validation screenshot
+├── LICENSE.md             # Project license
+└── README.md              # Project documentation
 ```
 
 ## License
