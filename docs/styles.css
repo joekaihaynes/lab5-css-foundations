@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,8 +21,8 @@ html, body {
 
 body {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    min-height: 100dvh;
+    grid-template-columns: 4fr 6fr;
+    min-height: 90dvh;
 }
 
 
@@ -92,11 +93,17 @@ form-field button{
     background: blue;
     color: white;
     border: none;
+    padding: 1rem 2rem;
     cursor: pointer;
-    padding: 1rem 1rem;
     border-radius: 0.5rem;
+    transition: background-color 0.1s;
+}
+form-field button:hover{
+    background: lightblue;
 }
 
-password-recovery{
-    text-align: right;
+submit-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

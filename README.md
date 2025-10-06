@@ -1,4 +1,4 @@
-# Lab 4: CSS foundations 
+# Lab 5: CSS foundations 
 
 ## Overview
 This project builds upon the foundational HTML concepts from **Lab 4** by introducing **CSS layout and styling principles** to create a clean, modern, and responsive login page.  
@@ -13,7 +13,7 @@ The project simulates a professional web application login page featuring:
 ## Project Goals
 
 By the end of this lab, we will have:
-1. A responsive two-column layout using CSS Grid (1/3 – 2/3 split).
+1. A responsive two-column layout using CSS Grid (40-60 split).
 2. A login form styled using Flexbox for alignment and spacing.
 3. Consistent visual hierarchy through typography, color, and spacing.
 4. Implementation of CSS variables to simplify styling and maintenance.
